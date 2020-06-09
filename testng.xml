@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes">
+  <test thread-count="5" name="Test" parallel="classes">
+    <classes>
+      <class name="com.tastcase.Getallemployees"/>
+      <class name="com.tastcase.Put_EmployeeDetails"/>
+      <class name="com.tastcase.Post_Employee_Record"/>
+      <class name="com.tastcase.Get_singleemployeerecord"/>
+      <class name="com.tastcase.Delet_Employee_Record"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
